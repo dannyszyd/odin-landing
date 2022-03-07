@@ -83,9 +83,44 @@ a:hover {
 
 button.signup {
     padding: 8px 26px;
-    margin-top: 8px;
+    margin-top: 10px;
     background-color: #3882f6;
     border-radius: 8px;
     border: none;
     font-weight: bold;
 }
+
+.midt {
+    text-align: center;
+}
+
+.randotitle {
+   color:#1f2937;
+   font-size: 36px;
+   font-weight: 800;
+   margin-bottom: 40px;
+}
+
+.randoh {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.picd {
+    max-width: 200px;
+    
+}
+
+img {
+   display: inline-block; /* Woulda been easier to make div, but remember IMG is inline so this was good practice!! */
+   width: 100px;
+   height: 100px;
+   border:#3882f6 solid 2px; 
+   border-radius: 8px;
+
+}
+
+
+
+
