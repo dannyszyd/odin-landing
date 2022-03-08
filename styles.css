@@ -139,7 +139,8 @@ img {
 .qbox {
     width: 44%;
     height: auto;
-    padding: 80px 100px;
+    padding: 80px 100px; /* [MOST LIKELY TEMPORARY]! This was only to get the box to fit more "center" like in pic, 
+    still will probably need to be reworked to write cleaner code for all! */
 }
 
 .quote {
@@ -147,6 +148,7 @@ img {
     color:#1f2937;
     font-style: italic;
     font-weight: 300;
+    margin-bottom: 24px;
 }
 
 .quotee {
@@ -155,5 +157,43 @@ img {
     font-weight: 800;
     text-align: end;
 }
+
+/* Section End:[midb]/Start:[bottm] */
+
+.bottm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    background-color: #3882f6;
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+   }
+
+.actt {
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+
+
+button.signuptwo {
+    padding: 8px 26px;
+    margin-top: 10px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border:white solid 2px;
+    color: white;
+    font-weight: bold;
+}
+
+
 
 
