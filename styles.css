@@ -4,7 +4,10 @@
 body {
     font-family: Roboto;
     height: 100vh;
-    }
+    margin: 0; /* Removes the sections being pushed away from page edge resulting in slight white showing like an imaginary border */
+    display: flex;
+    flex-direction: column;
+}
 
 /* Section Start [navbar] */
 
@@ -12,7 +15,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 26px;
+    padding: 12px 0 80px;
 }
 
 ul {
@@ -48,12 +51,19 @@ a:hover {
     background-color: #1f2937;
 }
 
-/* Section End:[navbar]/Start:[top] */
+/* Section End:[navbar]/Start:[sect] */
+
+.sect {
+    flex: 1 /* to spread out all sections and push footer to bottom */
+}
+
+/* Section End:[sect]/Start:[top] */
 
 .top {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .logo,
@@ -98,6 +108,7 @@ button.signup {
 
 .midt {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .randotitle {
@@ -134,6 +145,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .qbox {
@@ -164,6 +176,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .action {
@@ -174,15 +187,15 @@ img {
     display: flex;
     justify-content: space-around;
     padding: 50px 100px;
-   }
+    margin: 42px 0;
+}
+
 
 .actt {
     color: white;
     font-weight: 800;
     font-size: 24px;
 }
-
-
 
 button.signuptwo {
     padding: 8px 26px;
@@ -194,6 +207,12 @@ button.signuptwo {
     font-weight: bold;
 }
 
+/* Section End:[bottm]/Start:[footer] */
 
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 24px;
+}
 
 
