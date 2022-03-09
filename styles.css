@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 12px 0 80px;
+    padding: 12px 0 100px;
 }
 
 ul {
@@ -81,7 +81,7 @@ a:hover {
 
 .signupt {
    width: 400px;
-   padding: 24px; /* this gave the look we want (spaced sign up from edge but CHECK THIS!!!) */
+   padding: 40px 0; /* this gave the look we want (spaced sign up from edge but CHECK THIS!!!) */
 
 }
 
@@ -96,7 +96,7 @@ a:hover {
 }
 
 button.signup {
-    padding: 8px 26px;
+    padding: 8px 30px;
     margin-top: 10px;
     background-color: #3882f6;
     border-radius: 8px;
@@ -122,6 +122,7 @@ button.signup {
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding: 36px 0;
 }
 
 .picd {
@@ -151,7 +152,7 @@ img {
 .qbox {
     width: 44%;
     height: auto;
-    padding: 80px 100px; /* [MOST LIKELY TEMPORARY]! This was only to get the box to fit more "center" like in pic, 
+    padding: 100px 100px; /* [MOST LIKELY TEMPORARY]! This was only to get the box to fit more "center" like in pic, 
     still will probably need to be reworked to write cleaner code for all! */
 }
 
@@ -176,6 +177,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px 0;
     margin-bottom: 40px;
 }
 
@@ -186,7 +188,7 @@ img {
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
-    padding: 50px 100px;
+    padding: 50px 8px;
     margin: 42px 0;
 }
 
@@ -198,7 +200,7 @@ img {
 }
 
 button.signuptwo {
-    padding: 8px 26px;
+    padding: 8px 30px;
     margin-top: 10px;
     background-color: #3882f6;
     border-radius: 8px;
